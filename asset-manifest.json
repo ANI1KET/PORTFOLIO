@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/CRYPTO-APP/static/css/main.88b54a89.css",
-    "main.js": "/CRYPTO-APP/static/js/main.0c2dcfcc.js",
-    "static/media/portfolio-img2.png": "/CRYPTO-APP/static/media/portfolio-img2.d80e3fc7e2231cffbbd7.png",
-    "static/media/portfolio-img3.png": "/CRYPTO-APP/static/media/portfolio-img3.e2bf250541b961cca642.png",
-    "static/media/site-bg.jpg": "/CRYPTO-APP/static/media/site-bg.54724d703024833ef9c6.jpg",
-    "static/media/portfolio-img1.png": "/CRYPTO-APP/static/media/portfolio-img1.65b23e5c313b18600f24.png",
-    "static/media/Aniket.png": "/CRYPTO-APP/static/media/Aniket.c0e1351ac978909234a6.png",
-    "static/media/about.png": "/CRYPTO-APP/static/media/about.5bd1ed8c8b8573227ee7.png",
-    "static/media/services.png": "/CRYPTO-APP/static/media/services.8e66d4fbbd95de45b8db.png",
-    "static/media/Wing.png": "/CRYPTO-APP/static/media/Wing.b975d9216eb3e7171938.png",
-    "index.html": "/CRYPTO-APP/index.html",
-    "main.88b54a89.css.map": "/CRYPTO-APP/static/css/main.88b54a89.css.map",
-    "main.0c2dcfcc.js.map": "/CRYPTO-APP/static/js/main.0c2dcfcc.js.map"
+    "main.css": "/PORTFOLIO/static/css/main.cf4bfde5.css",
+    "main.js": "/PORTFOLIO/static/js/main.8b32ab46.js",
+    "static/media/portfolio-img2.png": "/PORTFOLIO/static/media/portfolio-img2.d80e3fc7e2231cffbbd7.png",
+    "static/media/portfolio-img3.png": "/PORTFOLIO/static/media/portfolio-img3.e2bf250541b961cca642.png",
+    "static/media/site-bg.jpg": "/PORTFOLIO/static/media/site-bg.54724d703024833ef9c6.jpg",
+    "static/media/portfolio-img1.png": "/PORTFOLIO/static/media/portfolio-img1.65b23e5c313b18600f24.png",
+    "static/media/Aniket.png": "/PORTFOLIO/static/media/Aniket.c0e1351ac978909234a6.png",
+    "static/media/about.png": "/PORTFOLIO/static/media/about.5bd1ed8c8b8573227ee7.png",
+    "static/media/services.png": "/PORTFOLIO/static/media/services.8e66d4fbbd95de45b8db.png",
+    "static/media/Wing.png": "/PORTFOLIO/static/media/Wing.b975d9216eb3e7171938.png",
+    "index.html": "/PORTFOLIO/index.html",
+    "main.cf4bfde5.css.map": "/PORTFOLIO/static/css/main.cf4bfde5.css.map",
+    "main.8b32ab46.js.map": "/PORTFOLIO/static/js/main.8b32ab46.js.map"
   },
   "entrypoints": [
-    "static/css/main.88b54a89.css",
-    "static/js/main.0c2dcfcc.js"
+    "static/css/main.cf4bfde5.css",
+    "static/js/main.8b32ab46.js"
   ]
 }
