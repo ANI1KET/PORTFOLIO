@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { FaGithub, FaYoutube, FaDribbble } from "react-icons/fa";
+import { FaYoutube, FaGithub, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
@@ -8,9 +8,7 @@ import { fadeIn } from "../variants";
 const Banner = () => {
   return (
     <>
-      <div
-        className="min-h-[85vh] lg:min-h-[78vh] flex items-center" id="home"
-      >
+      <div className="min-h-[85vh] lg:min-h-[78vh] flex items-center" id="home">
         <div className="container mx-auto">
           <div className="flex flex-col gap-y-8 lg:flex-row lg:justify-between lg:items-center">
             <motion.div
@@ -21,8 +19,7 @@ const Banner = () => {
               className="bg-image flex bg-contain bg-no-repeat lg:w-[550px] h-[550px] bg-top 
               drop-shadow-[-6px_6px_4px_#5f5e62]
               "
-            >
-            </motion.div>
+            ></motion.div>
             <div className="text-center font-secondary lg:text-left">
               <motion.h1
                 variants={fadeIn("left", 0.3)}
@@ -61,15 +58,24 @@ const Banner = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
-                className="mb-8 max-w-lg mx-auto lg:mx-0">
-              </motion.p>
+                className="mb-8 max-w-lg mx-auto lg:mx-0"
+              ></motion.p>
               <motion.div
                 variants={fadeIn("up", 0.6)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
-                className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
-                <button className="btn btn-lg">Contact me</button>
+                className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
+              >
+                <button className="btn btn-lg">
+                  <a
+                    href="https://linkedin.com/in/aniketrouniyar"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Connect with me
+                  </a>
+                </button>
                 <a href="#" className="text-gradient btn-link">
                   My portfolio
                 </a>
@@ -84,17 +90,25 @@ const Banner = () => {
                 <a href="#">
                   <FaYoutube />
                 </a>
-                <a href="#">
+                <a
+                  href="https://github.com/ANI1KET"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FaGithub />
                 </a>
-                <a href="#">
-                  <FaDribbble />
+                <a
+                  href="https://linkedin.com/in/aniketrouniyar"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaLinkedin />
                 </a>
               </motion.div>
             </div>
           </div>
         </div>
-      </div >
+      </div>
     </>
   );
 };

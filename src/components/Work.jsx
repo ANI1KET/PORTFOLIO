@@ -7,7 +7,6 @@ import Img3 from "../assets/portfolio-img3.png";
 import { useScroll, useTransform } from "framer-motion";
 
 const Work = () => {
-
   const { scrollYProgress } = useScroll();
   const scale = useTransform(scrollYProgress, [0, 1.2], [0.2, 1.8]);
 
@@ -22,35 +21,42 @@ const Work = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0"
           >
-            <div className="">
+            <div>
               <h2 className="h2 leading-tight text-accent">
                 My Latest <br />
                 Project
               </h2>
-              <p className="max-w-sm mb-10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
-                veniam enim ad repudiandae odio recusandae accusantium totam
-                dolorem harum eum.
+              <p className="max-w-lg mb-10">
+                I do more than just build projects; I explore and understand the
+                technologies I use. I'm excited to face new challenges and use
+                my skills to create high-quality solutions. The joy of solving
+                problems and writing clean, efficient code keeps me passionate
+                about my work.
               </p>
-              <a href={'https://github.com/ANI1KET?tab=repositories'} target=" ">
+              <a
+                href={"https://github.com/ANI1KET?tab=repositories"}
+                target=" "
+              >
                 <button className="btn btn-sm">View all projects</button>
               </a>
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl ">
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300">
-              </div>
-
-              <motion.div style={{ scale }}>
-                <img src={Img1} alt="" className="group-hover:scale-125 transition-all duration-500 z-50 " />
-              </motion.div>
-
-
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">CRYPTO-TRADE</span>
-              </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
-              </div>
+              <a href="https://codescreenshot.aniketrouniyar.com.np" target=" ">
+                <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+                <motion.div style={{ scale }}>
+                  <img
+                    src={Img1}
+                    alt=""
+                    className="group-hover:scale-125 transition-all duration-500 z-50 "
+                  />
+                </motion.div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                  <span className="text-gradient">CODE EDITOR SCREENSHOT</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                  <span className="text-3xl text-white">Project Title</span>
+                </div>
+              </a>
             </div>
           </motion.div>
           <motion.div
@@ -61,32 +67,44 @@ const Work = () => {
             className="flex-1 flex flex-col gap-y-10 lg:gap-y-12"
           >
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl ">
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+              <a href="https://taskmanager.aniketrouniyar.com.np" target=" ">
+                <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
 
-              <motion.div style={{ scale }}>
-                <img src={Img2} alt="" className="group-hover:scale-125 transition-all duration-500 z-50" />
-              </motion.div>
+                <motion.div style={{ scale }}>
+                  <img
+                    src={Img2}
+                    alt=""
+                    className="group-hover:scale-125 transition-all duration-500 z-50"
+                  />
+                </motion.div>
 
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">E-COMMERCE</span>
-              </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
-              </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                  <span className="text-gradient">TASK MANAGER</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                  <span className="text-3xl text-white">Project Title</span>
+                </div>
+              </a>
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl ">
-              <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+              <a href="https://tracker.aniketrouniyar.com.np/" target=" ">
+                <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
 
-              <motion.div style={{ scale }}>
-                <img src={Img3} alt="" className="group-hover:scale-125 transition-all duration-500 z-50" />
-              </motion.div>
+                <motion.div style={{ scale }}>
+                  <img
+                    src={Img3}
+                    alt=""
+                    className="group-hover:scale-125 transition-all duration-500 z-50"
+                  />
+                </motion.div>
 
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">IMAGE_RESIZER</span>
-              </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
-              </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                  <span className="text-gradient">REALTIME TRACKER</span>
+                </div>
+                <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                  <span className="text-3xl text-white">Project Title</span>
+                </div>
+              </a>
             </div>
           </motion.div>
         </div>
